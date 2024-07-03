@@ -7,6 +7,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Podcaster",
   description: "Generated your podcast using  AI",
+  icons:{
+    icon: "/icons/logo.svg",
+  }
 };
 
 export default function RootLayout({
